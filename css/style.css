@@ -8,21 +8,21 @@ body{
 }
 main{
     display: flex;
-    border-radius: 25px;
+    border-radius: 14px;
     background-color: var(--white);
-    height: 54em;
+    height: 53em;
     width: 105em;
     align-items: center;
     justify-content: baseline;
     padding-inline: 21px;
     padding-block: 25px;
-    gap: 27em;
+    gap: 18em;
 }
 .gif-container{
     width: 547px;
-    height: 829px;
+    height: 810px;
     background-image: url(https://i.pinimg.com/originals/9f/ab/cf/9fabcf7e4b8a81ae8316d1e5e9e46b9e.gif);
-    border-radius: 10px;
+    border-radius: 8px;
     background-position: center;
     background-repeat: no-repeat;
     background-color: var(--main-green);
@@ -31,6 +31,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 160px;
 }
 .input-container{
