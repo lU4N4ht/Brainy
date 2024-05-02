@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/root.css">
     <link rel="stylesheet" href="../css/reset.css">
+    <script src="../js/home.js" defer></script>
     <title>Brainy</title>
 </head>
 <body>
@@ -20,9 +21,26 @@
        </div>
        <div class="input">
         <div class="input-area">
-            <input type="text" placeholder="Faça uma pergunta aqui...">
+            <input type="text" readonly disabled id="perguntaUser">
             <img src="../img/interrogacao.png" alt="">
            </div>
+       </div>
+
+       <div class="bot-info">
+        <div class="bot-img"></div>
+        <div class="bot-name">Brainy</div>
+       </div>
+       <div class="input-ia">
+        <div class="ia-text">
+            <input type="text" placeholder="Brainy responderá a sua dúvida :)" readonly disabled id="answer" class="answer">
+           </div>
+       </div>
+       <div class="question-area">
+           <input type="text" placeholder="Faça a sua pergunta..." class="question" id="question">
+           <button class="send-question" id="btn">
+               <h2>Send</h2>
+               <img src="../img/seta.png" alt="seta" width="25">
+           </button>
        </div>
     </main>
 </body>

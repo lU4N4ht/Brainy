@@ -13,10 +13,11 @@ main{
     background-color: var(--white);
     height: 53em;
     width: 105em;
-    justify-content: baseline;
+    justify-content: space-between;
     padding-inline: 53px;
     padding-top: 67px;
     padding-bottom: 44px;
+
 }
 .user-info{
     display: flex;
@@ -38,6 +39,7 @@ main{
 .input{
     display: flex;
     justify-content: center;
+    height: auto;
 }
 .input-area{
     display: flex;
@@ -51,4 +53,72 @@ input{
     border: none;
     outline: 0;
     background-color: transparent;
+    width: 110em;
+    height: auto;
+}
+.bot-info{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+.bot-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(https://cdn-icons-png.flaticon.com/128/5226/5226034.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bot-name{
+    font-family: var(--font);
+}
+.input-ia{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.ia-text{
+    display: flex;
+    width: 88em;
+    height: 20em;
+    border: 1px solid var(--black);
+    padding: 20px;
+    align-items: baseline;
+    justify-content: baseline;
+}
+.answer{
+   height: auto;
+}
+.question-area{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 53px;
+}
+.question{
+    width: 95em;
+    height: auto;
+    border: 1px solid var(--black);
+    padding: 20px;
+    background-color: var(--gray);
+}
+.send-question{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 69px;
+    border-radius: 10px;
+    background-color: var(--main-green);
+    gap: 6px;
+    cursor: pointer;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+h2{
+    font-family: var(--font);
+    font-size: 20px;
+}
+.send-question:hover{
+    background-color: var(--dark-green);
+    transform: translateY(-0.125em);
 }
